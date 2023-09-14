@@ -48,7 +48,7 @@ public class UcakBiletiFiyatiHesaplama {
                     System.out.print("Bilet Fiyatı: "+oneWay + " TL");
                     break;
                 case 2:
-                    randTrip=total2-(total2*ageDiscount2);
+                    randTrip=total2-(total2*araundDiscount);
                     System.out.print("Bilet Fiyatı: "+randTrip + " TL");
                     break;
 
