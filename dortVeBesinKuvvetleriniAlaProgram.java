@@ -27,8 +27,6 @@ public class dortVeBesinKuvvetleriniAlaProgram {
             }
 
             System.out.println();
-            System.out.println();
-            System.out.println();
             System.out.println("5'in kUVVETLERİ:");
 
             for (int i=1; i<=n; i*=5){
