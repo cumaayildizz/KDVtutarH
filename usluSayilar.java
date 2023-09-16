@@ -23,26 +23,28 @@ public class usluSayilar {
 
         if(n>=0 && r>=0 ){
 
-            for(int i=1; i<=r; i++){
-
-                total*=n;
+            if (n==0 && r==0){
+                System.out.println(" 0^0 işlemi tanımsız");
 
             }
-            System.out.println();
-            System.out.print("Sonuç= " + total);
 
+            else {
+
+                for(int i=1; i<=r; i++){
+
+                    total*=n;
+
+                }
+                System.out.println();
+                System.out.print("Sonuç= " + total);
+            }
         }
 
-        else if (n==0 && r==0){
-            System.out.println(" 0^0 işlemi tanımsız");
-        }
 
         else {
 
             System.out.println("LÜTFEN POZİTİF TAM SAYI GİRİNİZ!!");
 
         }
-
-
     }
 }
